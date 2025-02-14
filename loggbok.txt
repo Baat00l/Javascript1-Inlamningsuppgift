@@ -1,0 +1,25 @@
+Loggbok
+
+Datum: 2024-12-18
+Arbetet började med att skapa strukturen för webbplatsen. HTML-filen skapades och grundläggande sektioner som header, main och footer inkluderades. Den grundläggande stilen skapades också i CSS-filen och länkades till HTML-filen.
+
+Datum: 2024-12-19
+Korten för minnesspelet lades till i HTML-filen och bilderna länkades. En JavaScript-fil skapades för att hantera spelmekaniken, inklusive vändning av kort och kontroll av matchning.
+
+Datum: 2024-12-20
+En tidtagningsfunktion implementerades i JavaScript, så att spelarna kan välja tid och spelet startar om automatiskt efter att tiden är slut. 
+
+Datum: 2024-12-21
+De sista justeringarna och felsökningen av spelet genomfördes. Alla bilder säkerställdes att initieras från en array och blandas i slumpmässig ordning.
+
+Datum: 2024-12-22
+Fokus låg på att optimera koden och göra spelet mer responsivt för olika skärmstorlekar. Fler bilder lades till i arrayen. 
+
+Datum: 2024-12-23
+Användargränssnittet förbättrades genom att lägga till CSS-animationer och övergångar för att göra spelet mer visuellt tilltalande. Spelet testades med olika tidsinställningar för att säkerställa att tidtagningsfunktionen fungerade korrekt.
+
+Datum: 2024-12-24
+Dokumentation av hela processen skrevs i loggboken och det säkerställdes att allt fungerade som förväntat. En sista granskning av projektet gjordes.
+
+Datum: 2024-12-25
+Slutlig inlämning av projektet.

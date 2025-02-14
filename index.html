@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="siteheader">
+        <div class="logo">
+            <i class='bx bxs-game logoicon'></i>
+            Game<span class="logopart2">Lovers</span>                
+        </div>
+        <nav>
+            <ul class="navmenu">
+                <li><a class="headeranchor" href="#home">Start</a></li>
+                <li><a class="headeranchor" href="#memory">Memory</a></li>
+            </ul>
+        </nav>
+        <ul class="navicons">
+           <li><a class="navicons__headeranchor" href="#"><i class='bx bx-search-alt'></i></a></li> 
+           <li><a class="navicons__headeranchor" href="#"><i class='bx bx-menu'></i></a></li> 
+        </ul>
+    </header>
+    <main>
+        <section class="products" id="memory">
+            <h1>Memory</h1>
+            <div class="contact__content">
+                <div class="wrapper">
+                    <ul class="cards">
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/5.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/6.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/Nibbles.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/TomAndJerry.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/JerryHeartbeat.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/TOM.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/JerryHeartbeat.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/TOM.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/5.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/6.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/TomAndJerry.jpg" alt="card-img">
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="view front-view">
+                                <img class="img-front" src="img/qmark.png" alt="icon">
+                            </div>
+                            <div class="view back-view">
+                                <img class="img-back" src="Images/Nibbles.jpg" alt="card-img">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="details">
+                        <label for="time">Tid:</label>
+                        <select id="time" name="time">
+                            <option value="15">15s</option>
+                            <option value="30" selected>30s</option>
+                            <option value="60">60s</option>
+                        </select>
+                        <p class="flips">Antal: <span id="flip-count"><b>0</b></span></p>
+                        <button onclick="startGame()">Starta om</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
